@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Neuro Fuzzy Quiz </title>
+  <link rel="stylesheet" href="/css/cards.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="title">
+  <h1 class="ml10">
+    <span class="text-wrapper">
+      <span class="letters">Neuro Fuzzy Quiz Portal</span>
+    </span>
+  </h1>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<main class="container">
+ <% for (let test of tests){%>
+  <section class="card card-blue">
+    <div class="product-image">
+      <img src="https://img.pikbest.com/element_our/20220416/bg/811e6fa18bf98.png!w700wp" alt="OFF-white Blue Edition" draggable="false" />
+    </div>
+    <div class="product-info">
+      <h1 style="text-decoration: underline;color: black;"><%=test.title%></h1>
+      <h3 style="color: black;"><%=test.des%></h3>
+    </div>
+    <div class="btn">
+      <a href=<%=test.mcq%>>
+        <button class="buy-btn">Solve Mcqs</button>
+      </a>
+    </div>
+    <div class="btn">
+      <a href=<%=test.video%>>
+        <button class="buy-btn">View Lectures</button>
+      </a>    
+    </div>
+  </section>
+<%}%>
+</main>
+<!-- partial -->
+  <script  src="/scripts/script.js"></script>
+
+</body>
+</html>

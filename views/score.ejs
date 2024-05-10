@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/score.css">
+</head>
+<body >
+<div class="heading">
+    <h1>GAME OVER</h1>
+    <h2>Your Score is <%=marks%></h2>
+    <a href="/home"><div class="btn">Go Back To Home</div></a>
+</div>
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+<title>Game Over!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="/css/score.css">
+
+</head>
+<body>
+    <body>
+       
+        <div id="match-details-curtain">
+            <div id="match-details-container">
+                <div id="title" style="color: black;"><b>QUIZ OVER</b></div>
+                <div id="teams-container">
+                    <div class="homecomming-team flexbox-items">
+                        <div class="homecomming-team logo"></div>
+                        <br />
+                        <div class="homecomming-team name"></div>
+                    </div>
+                    <div class="flexbox-items">
+                        <div id="time-of-match">🧠👨‍🔬📚</div>
+                        <div id="date-of-match"></div>
+                        <br />
+                        <div id="vs"><div class="circle"></div><hr id="vs-line"/><div class="circle"></div></div>
+                    </div>
+                    <div class="away-team flexbox-items">
+                        <div class="away-team logo"></div>
+                        <br />
+                        <div class="away-team name"></div>
+                    </div>
+                </div>
+                <div id="score-container">
+                    <div class="homecomming-team score" style="color: black;"><%=marks%></div>
+                    <div class="away-team score">20</div>
+                </div>
+                <a href="/home" style=" display: flex; width: 100wh; margin-top: 23px;justify-content: center;  text-decoration: none;">
+                <button
+                class="btn btn-primary"
+                type="button"
+                style="text-align: center; display: flex; margin-top: 23px"
+              >
+                Go Back to Home
+              </button></a>
+                <hr id="bottom-devider" />
+              
+            </div>
+        </div>
+    </body>
+<body>
+  
+ 
+
+</body>
+</html>

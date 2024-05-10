@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hi <%=vc%></h1>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Style for the box */
+        .box {
+            border: 1px solid #cccccc; /* Border */
+            padding: 20px; /* Padding */
+            background-color: #C1D3EF; /* Background color */
+            width: 100%; /* Set width */
+            margin: 0 auto; /* Center horizontally */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/video.css">
+</head>
+<body>
+    <h1>💻Video Lectures👩‍🏫</h1>
+
+    <div class="box">
+        <p>Neuro-fuzzy systems introduce the fusion of fuzzy logic and neural networks, highlighting their synergy in handling uncertain data and learning from experience. It covers models like the Adaptive Neuro-Fuzzy Inference System (ANFIS), emphasizing their applications in diverse fields such as control systems and pattern recognition.</p>
+    </div>
+    <br>
+    <div id="container">
+      <video id='video' controls="controls" preload='none' width="600" poster="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10462-020-09804-x/MediaObjects/10462_2020_9804_Fig1_HTML.png">
+        <source id='mp4' src="https://drive.google.com/file/d/1Rmlvx-o3Z1SQ5CAjebtFQCRmW1eq45AQ/view" type='video/mp4' />
+        <source id='webm' src="https://drive.google.com/file/d/1Rmlvx-o3Z1SQ5CAjebtFQCRmW1eq45AQ/view" type='video/webm' />
+        <source id='ogv' src="https://drive.google.com/file/d/1Rmlvx-o3Z1SQ5CAjebtFQCRmW1eq45AQ/view" type='video/ogg' />
+        <!--
+              Track to be used for accessibility using the VTT standard. 
+    
+              See https://www.html5rocks.com/en/tutorials/track/basics/ for more information on how to use text tracks
+            -->
+        <track kind="subtitles" label="English subtitles" src="subtitles_en.vtt" srclang="en" default>
+        </track>
+        <!-- 
+            We can also add more than one text track and let the user choose which one to play. There is now way to 
+            currently do this with the built in controls so it'll have to be scripted -->
+        <track kind="subtitles" label="Deutsche Untertitel" src="subtitles_de.vtt" srclang="de">
+        </track>
+    
+        <!-- 
+              We're not using Flash as a fallback option.
+            -->
+
+      </video>
+      <br>
+      <div>
+        <ul>
+      <li style=" border: 1px solid #0a15e8;background-color: #c1d3ef;"><a href="https://drive.google.com/file/d/1Rmlvx-o3Z1SQ5CAjebtFQCRmW1eq45AQ/view" style="text-decoration: none;">Unit 1 -Activation function,Bias,Threshold</a></li>
+     <br>
+      <li style=" border: 1px solid #0a15e8;background-color: #e5e9f0;"><a href="https://drive.google.com/file/d/11_3xAx8VTj9_ajiv3sIunELibYd_tWNC/view" style="text-decoration: none;">Unit 1 - Hebbian rule AND Implementation problem</a></li>
+      <br>
+      <li style=" border: 1px solid #0a15e8;background-color: #c1d3ef;"><a href="https://drive.google.com/file/d/18P6wApOuTu5z5hkOIKkpKDLDxaTgZvb1/view " style="text-decoration: none;">Unit 1- Perceptron example</a></li>
+      <br>
+      <li style=" border: 1px solid #0a15e8;background-color: #e5e9f0;"><a href="https://drive.google.com/file/d/1qehElpoRhkpu6lMsBQJQCR9kvZ106Zsh/view" style="text-decoration: none;">Unit 1 - Adaline_Madaline</a></li>
+
+    
+    </ul>
+    </div>
+    </div> <!-- End Container --> 
+
+    
+</body>
+</html>

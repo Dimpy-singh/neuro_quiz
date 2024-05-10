@@ -1,0 +1,46 @@
+label,question,option-1,option-2,option-3,option-4,answer
+ct-1, What is the activation function used in the McCulloch Pitts model?,a) Linear,b) Sigmoid,c) ReLU,d) Step,d
+ct-1, Which learning algorithm is used in the Perceptron Network?,a) Backpropagation,b) Gradient Descent,c) Hebbian Learning,d) Reinforcement Learning,c
+ct-1, What parameter is used to adjust the sensitivity of a neuron in a neural network?,a) Activation Function,b) Bias,c) Threshold,d) Learning Rate,b
+ct-1, Which neural network model utilizes the concept of synaptic weights?,a) Hebbian Network,b) ADALINE Network,c) MADALINE Network,d) Perceptron Network,a
+ct-1,What is the primary function of the McCulloch Pitts model?,a) Image Recognition,b) Sentiment Analysis,c) Logic Simulation,d) Speech Recognition,c
+ct-1, What is the key characteristic of the Perceptron network that enables it to learn?,a) Activation Function,b) Feedback Loops,c) Synaptic Weights,d) Bias,c
+ct-1, Which neural network model is based on the principle of synaptic plasticity?,a) McCulloch Pitts Model,b) Hebbian Network,c) ADALINE Network,d) MADALINE Network,b
+ct-1, What is the primary learning rule used in the Hebbian network?,a) Error Correction Rule,b) Delta Rule,c) Competitive Learning Rule,d) Hebbian Learning Rule,d
+ct-1, What type of neural network is primarily used for pattern recognition tasks?,a) McCulloch Pitts Model,b) Hebbian Network,c) ADALINE Network,d) MADALINE Network,d
+ct-1, Which neural network model is also known as the Multiple Adaptive Linear Neuron?,a) McCulloch Pitts Model,b) Hebbian Network,c) ADALINE Network,d) MADALINE Network,d
+ct-1, What parameter is adjusted in a neural network to shift the decision boundary?,a) Activation Function,b) Bias,c) Threshold,d) Learning Rate,b
+ct-1, What is the primary function of the ADALINE network?,a) Classification,b) Regression,c) Clustering,d) Reinforcement Learning,b
+ct-1, What is the primary function of the MADALINE network?,a) Classification,b) Regression,c) Clustering,d) Reinforcement Learning,a
+ct-1, Which neural network model utilizes the concept of lateral inhibition?,a) McCulloch Pitts Model,b) Hebbian Network,c) ADALINE Network,d) MADALINE Network,a
+ct-1, What is the primary learning rule used in the ADALINE network?,a) Error Correction Rule,b) Delta Rule,c) Competitive Learning Rule,d) LMS Algorithm,d
+ct-1, Which activation function is commonly used in the output layer of a neural network for binary classification tasks?,a) Sigmoid,b) Tanh,c) ReLU,d) Linear,a
+ct-1, Which neural network model is capable of learning associations between input patterns?,a) McCulloch Pitts Model,b) Hebbian Network,c) ADALINE Network,d) MADALINE Network,b
+
+
+
+ct-2,Explain the derivation of the generalized delta rule (GDR) and its significance in neural network training.,a. Gradient Descent Rule (GDR),b. Generalized Delta Rule (GDR),c. Gaussian Distribution Rule (GDR),d. Gradient Descent Algorithm (GDA),b
+ct-2,Describe the architecture and functioning of a radial basis function neural network (RBFNN) and its applications in pattern recognition.,a. Utilizes sigmoid activation functions,b. Consists of input hidden and output layers,c. Employs a radial basis function as the activation function,d. Focuses on convolutional operations,b
+ct-2,What is the concept of pattern association and how are auto-associative nets utilized to achieve it in neural networks?,a. Links inputs with their corresponding outputs,b. Maps inputs to a fixed set of categories,c. Reconstructs inputs from noisy or incomplete data,d. Performs classification based on predefined patterns,c
+ct-2,Explain the structure and working principles of a bidirectional associative memory network (BAM) highlighting its advantages over other associative memory models.,a. Utilizes a feedforward architecture,b. Associates patterns in a unidirectional manner,c. Maintains connections between all neurons in the network,d. Supports both auto-associative and hetero-associative mappings,d
+ct-2,Discuss the hopfield network and its applications in pattern recognition and optimization including its ability to escape local minima.,a. Employs unsupervised learning exclusively,b. Utilizes competitive learning for weight adjustment,c. Functions as a content-addressable memory with stable states,d. Demonstrates chaotic behavior during training,c
+ct-2,What are competitive networks particularly maxnet and how are they used in tasks such as clustering and winner-take-all competitions?,a. Maxnet applies softmax activation functions for output nodes,b. Competitive networks utilize gradient descent for weight optimization,c. Maxnet identifies the maximum value among competing neurons,d. Competitive networks employ radial basis functions for feature extraction,c
+ct-2,Detail the functioning of a self-organizing map network (SOM) its learning process and applications in dimensionality reduction and clustering.,a. SOM employs supervised learning for weight adjustment,b. Learning process involves updating weights based on nearest neighbor relationships,c. Applications include speech recognition and natural language processing,d. Utilizes competitive learning to form a low-dimensional representation of input space,d
+ct-2,Explain how neural networks are utilized for pattern clustering including the algorithms and techniques commonly employed for this task.,a. Clustering involves organizing data into hierarchical structures,b. Neural networks use unsupervised learning to group similar data points,c. Common algorithms include k-means and hierarchical clustering,d. Techniques involve adjusting network parameters to minimize clustering error,b
+ct-2,What are crisp sets in fuzzy logic?,a. Sets with well-defined boundaries,b. Sets with fuzzy boundaries,c. Sets with no boundaries,d. Sets with infinite elements,a
+ct-2,Define fuzzy sets and their characteristics.,a. Sets with precise boundaries,b. Sets with uncertain or imprecise boundaries,c. Sets with binary membership values,d. Sets with no membership functions,b
+ct-2,Which of the following best describes fuzzy membership functions?,a. Functions mapping elements to crisp values,b. Functions mapping elements to binary values,c. Functions mapping elements to fuzzy values,d. Functions mapping elements to infinite values,c
+ct-2,Explain fuzzy relations and their operations.,a. Relations with crisp values,b. Relations with binary values,c. Relations with fuzzy values,d. Relations with infinite values,c
+ct-2,What is the Fuzzy Extension Principle?,a. Extends crisp logic to fuzzy logic,b. Extends fuzzy logic to crisp logic,c. Extends set theory to fuzzy logic,d. Extends predicate logic to fuzzy logic,a
+ct-2,What is the importance of activation functions in neural networks?,a. They introduce non-linearity, b. They normalize the input data, c. They determine the learning rate, d. They control the number of hidden layers.,a
+ct-2,Describe the role of bias in neural networks.,a. It shifts the activation function, b. It controls the speed of learning, c. It prevents overfitting, d. It initializes the weights.,a
+ct-2,What is the function of the threshold in perceptron models?,a. It determines the decision boundary, b. It adjusts the learning rate, c. It controls the output range, d. It initializes the weights.,a
+ct-2,How does the Hebbian rule contribute to synaptic plasticity?,a. It strengthens connections between neurons that fire together, b. It inhibits connections between neurons, c. It randomly initializes weights, d. It adjusts the threshold value.,a
+ct-2,What distinguishes Adaline from the perceptron model?,a. Adaline uses linear activation functions, b. Adaline can learn continuous-valued functions, c. Adaline has a single layer, d. Adaline does not require bias.,b
+ct-2,Explain the concept of competitive learning in neural networks.,a. Neurons compete to become active based on input signals, b. Neurons collaborate to compute output values, c. Neurons share weights during training, d. Neurons ignore input signals during learning.,a
+ct-2,What is the purpose of the learning rate in gradient descent optimization?,a. It controls the step size during parameter updates, b. It determines the number of epochs, c
+
+
+
+
+
